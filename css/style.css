@@ -8,6 +8,8 @@ body, html{
     height: 100%;
 }
 
+
+
 /*Cabeçalho*/
 
 header{
@@ -100,7 +102,89 @@ nav{
 
 
 /*Post*/
+#post{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.div-post{
+    display: flex;
+    border: 1px solid black;
+    width: 900px;
+    height: 550px;
+    justify-content: center;
+}
+
+.descricao-post{
+   width: 100%;
+    
+}
+
+
+.descricao-cima{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.logo-fluxo{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid lightgray;
+    margin-right: 20px;
+    
+}
+
+.div-fluxo-user{
+    display: flex;
+    
+    margin-bottom: 8px;
+}
+
+.fluxo-user{
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color: rgba(var(--f75,38,38,38),1);
+    font-size: 0.9em;
+}
+
+.user-inline{
+    display: inline;
+}
 
 
 
+.imagem-post{
+    width: 550px;
+    height: 550px;
+  
+}
+
+.ponto{
+    margin: 0 10px;
+}
+
+
+.tres-pontos{
+    margin-left: 85px;
+}
+
+.descricao-legenda{
+    display: flex;
+    padding: 20px;
+    border-top: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    height: 300px;
+}
+
+
+.legenda{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 0.9em;
+}
 
