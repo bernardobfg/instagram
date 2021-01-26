@@ -8,6 +8,9 @@ body, html{
     height: 100%;
 }
 
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
 
 
 /*Cabeçalho*/
@@ -52,6 +55,18 @@ nav{
     margin: 10px;
     width: 20px;
 }
+
+.enviar{
+    margin-top: 3px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(-30deg);
+}
+
+.descricao-icones .enviar{
+    margin-bottom: 14px;
+}
+
 
 .img-instagram{
     margin-top: 10px;
@@ -110,7 +125,7 @@ nav{
 
 .div-post{
     display: flex;
-    border: 1px solid black;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
     width: 900px;
     height: 550px;
     justify-content: center;
@@ -148,7 +163,6 @@ nav{
 
 .fluxo-user{
     font-weight: 600;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     color: rgba(var(--f75,38,38,38),1);
     font-size: 0.9em;
 }
@@ -179,12 +193,82 @@ nav{
     padding: 20px;
     border-top: 1px solid rgba(var(--b6a,219,219,219),1);
     border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
-    height: 300px;
+    height: 250px;
 }
 
 
 .legenda{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     font-size: 0.9em;
 }
 
+
+.descricao-icones{
+    margin-bottom: -15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.div-icones-esquerda{
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-icone-direita{
+
+}
+
+.icone-post{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.icone-save{
+    width: 50px;
+}
+
+.quem-curtiu{
+    display: flex;
+    padding-left: 10px;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.postada-em{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 0.7em;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+
+.div-comentario{
+    display: flex;
+    padding-top: 17px;
+    padding-left: 20px;
+    height: 40px;
+    vertical-align: baseline;
+    align-content: start;
+    justify-content: space-between;
+}
+
+.comentario{
+    border: none;
+    width: 250px;;
+    resize: none;
+    outline: none;
+    
+    
+}
+
+.publicar{
+    margin-right: 10px;
+    cursor: initial;
+    border: none;
+    color: rgba(var(--d69,0,149,246),0.4);
+    background-color: #ffffff;
+    font-weight: 700;
+}
