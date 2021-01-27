@@ -9,12 +9,12 @@ body, html{
 }
 
 body{
+    min-width: 975px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 
 /*Cabeçalho*/
-
 header{
     display: flex;
     justify-content: center;
@@ -24,22 +24,58 @@ header{
 
 nav{
     height: 54px;
-    padding: 0 20px;
-    margin-left: 24px;
-    width: 85%;
+    padding: 0 1.8433170%;
+    width: 935px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+
+/*Logo instagram */
+.div-logo{
+    width: 360px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img-instagram{
+    margin-top: 7px;
+    height: 29px;
+    width: 103px;   
+}
+
+
+/*Input pesquisar*/
+.div-input-header {
+    width: 213px;
+  }
+
+.div-input-header button{
+    margin-top: 6px;
+    color: gray;
+    cursor: pointer;
+}
+
+.organiza-input{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.organiza-input:focus{
+    padding-left: 20px;
+    background-color: greenyellow;
 }
 
 .input-header{
     border-radius: 3px;
     padding-left: 25px;
     padding-right: 27px;;
-    margin-left: 140px;
     height: 25px;
     width: 162px;
-    border: 1px;
     background: rgba(var(--b3f,250,250,250),1);
     border: none;
     outline: none;
@@ -55,94 +91,82 @@ nav{
 .input-header:focus{
     text-align: start;
     background-position-x: 4%;
-
 }
 
-.organiza-input{
+
+  /*Icones do header*/
+.div-icones-externa{
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.organiza-input:focus{
-    padding-left: 20px;
-    background-color: greenyellow;
+    justify-content: flex-end;
+    width: 360px;
 }
 
 .div-icones-header{
-    padding-left: 40px;
-    width: 222px;
+    padding-left: 24px;
+    height: 22px;
+    width: 198px;
     display: flex;
     padding-right: 0;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .icone-header{
-    margin: 10px;
     width: 22px;
 }
 
+.minha-imagem{
+    border-radius: 100%;
+    width: 22px;     
+}
+
 .enviar{
-    margin-top: 3px;
+    margin-bottom: 4px;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(-30deg);
 }
 
-.descricao-icones .enviar{
-    margin-bottom: 14px;
-}
-
-.img-instagram{
-    margin-top: 10px;
-    width: 106px;   
-}
-
-.div-input-header {
-    position: relative;
-    width: 200px;
-  }
-
-  .div-input-header button{
-      margin-top: 6px;
-      color: gray;
-      cursor: pointer;
-  }
-
-  .minha-imagem{
-      border-radius: 100%;
-      width: 22px;
-      margin: 10px;
-      padding: 2px;      
-  }
 
 /*Post*/
 #post{
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding: 25px 155px 25px 180px;
 }
 
 .div-post{
     display: flex;
-    border: 1px solid rgba(var(--b6a,219,219,219),1);
-    width: 920px;
+    padding: 28.680px 1.8433170% 40px 1.8433170%;
+    width: 895px;
     height: 600px;
     justify-content: center;
 }
 
-.descricao-post{
-   width: 100%;
-   padding-right: 20px;
-    
+.imagem-post{
+    width: 598px;
+    height: 598px;  
 }
 
+.descricao-post{
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+   width: 334px;
+   background-color: #ffffff;
+}
+
+
+/*Parte de cima */
 .descricao-cima{
-    width: 80%;
-    padding: 20px;
+    width: 302px;
+    padding: 16px;
+    height: 39px;
     display: flex;
     justify-content: start;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
     align-items: center;    
+}
+
+.div-imagem-fluxo{
+    height: 22px;
 }
 
 .logo-fluxo{
@@ -150,107 +174,112 @@ nav{
     height: 30px;
     border-radius: 100%;
     border: 1px solid lightgray;
-    margin-right: 20px;
 }
 
 .div-fluxo-user{
+    width: 256px;
+    margin-left: 14px;
     display: flex;
-    margin-bottom: 8px;
-}
-
-.fluxo-user{
-    font-weight: 600;
-    color: rgba(var(--f75,38,38,38),1);
-    font-size: 0.9em;
-}
-
-.user-inline{
-    display: inline;
-}
-
-.imagem-post{
-    width: 600px;
-    height: 600px;  
 }
 
 .ponto{
-    margin: 0 10px;
+margin: 0 4px;  
 }
 
 .tres-pontos{
-    font-size: 0.9em;
-    margin-left: 85px;
+    margin-left: 100px;
+    font-size: 0.75em;
 }
 
+
+/*Parte da legenda*/
 .descricao-legenda{
     display: flex;
-    padding: 20px 30px 20px 20px;
-    border-top: 1px solid rgba(var(--b6a,219,219,219),1);
+    padding: 16px;
+    width: 306px;
     border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
-    height: 300px;
+    height: 322px;
+}
+
+.logo-fluxo2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+}
+
+.div-fluxo-user2{
+    margin-top: 5px;
+    display: flex;
+}
+
+
+.fluxo-user2{
+    font-weight: 600;
+    color: rgba(var(--f75,38,38,38),1);
+    font-size: 1em;
 }
 
 .legenda{
     font-size: 0.9em;
 }
 
-.emoji{
-    margin-bottom: -3px;
-}
-
 .descricao-icones{
-    margin-bottom: -15px;
+    width: 320px;
+    height: 40px;
+    margin-top: 2px;
+    padding: 0 6px 0 7px;
     display: flex;
     justify-content: space-between;    
 }
 
-.div-icones-esquerda{
-    padding-left: 10px;
+.div-icones-esquerda{    
     display: flex;
     justify-content: space-between;
 }
 
 .icone-post{
-    width: 25px;
-    margin-left: 10px;
+    width: 24px;
+    padding: 8px;
 }
 
 .icone-save{
-    width: 50px;
+    width: 45px;
 }
 
 .quem-curtiu{
     display: flex;
-    padding-left: 10px;
     justify-content: start;
-    align-items: center;
+    width: 302px;
+    padding: 0 16px;
+    align-items: end;
     font-size: 0.9em; 
 }
 
 .quem-curtiu .minha-imagem{
-    margin-right: 5px;
+    margin-right: 3px;
 }
 
-.quem-curtiu p{
-    margin-top: 12px;
+.fluxo-user3{
+    font-weight: 600;
+    color: rgba(var(--f75,38,38,38),1);
+    font-size: 1em;
 }
 
 .postada-em{
+    padding: 4px 0 8px 16px;
     color: rgba(var(--f52,142,142,142),1);
     font-size: 0.7em;
-    padding-left: 20px;
-    margin-top: 5px;
-    padding-bottom: 15px;
     border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
 }
 
 .div-comentario{
     display: flex;
-    padding-top: 15px;
-    padding-left: 20px;
     height: 40px;
+    padding-top: 20px;
     vertical-align: baseline;
-    align-content: start;
+    align-content: center;
     justify-content: space-between;
 }
 
@@ -258,11 +287,12 @@ nav{
     border: none;
     width: 250px;;
     resize: none;
-    outline: none;    
+    outline: none;  
+    padding-left: 16px;  
 }
 
 .publicar{
-    margin-right: 10px;
+    padding-right: 10px;
     cursor: initial;
     border: none;
     color: rgba(var(--d69,0,149,246),0.4);
