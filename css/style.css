@@ -165,6 +165,7 @@ nav{
 }
 
 .div-imagem-fluxo{
+    margin-bottom: 8px;
     height: 22px;
 }
 
@@ -263,6 +264,7 @@ margin: 0 4px;
 }
 
 .quem-curtiu .minha-imagem{
+    width: 21px;
     margin-right: 3px;
 }
 
